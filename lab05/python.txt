@@ -1,0 +1,9 @@
+ pip install django   
+ pip install virtualenv       
+ virtualenv venv    
+ source venv/bin/activate  
+ pip freeze
+ django-admin startproject myproject
+ python myproject/manage.py runserver
+ python manage.py startapp myapplication
+ 
